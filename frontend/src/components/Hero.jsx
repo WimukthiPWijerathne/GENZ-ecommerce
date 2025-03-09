@@ -52,9 +52,10 @@ const Hero = () => {
             modifier: 2.5,
           }}
           autoplay={{
-            delay: 1000,
+            delay: 2000,
             disableOnInteraction: false,
             pauseOnMouseEnter: false,
+            
           }}
           speed={500}
           pagination={{ el: '.swiper-pagination', clickable: true }}
