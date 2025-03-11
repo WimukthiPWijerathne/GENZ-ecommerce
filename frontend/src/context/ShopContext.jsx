@@ -5,12 +5,12 @@ export const ShopContext = createContext();
 
 const ShopContextProvider = (props) => {
     const currency = 'Lkr';
-    const delivery_fee = 10; // Fixed spelling mistake
+    const delivery_fee = 10; e
 
     const value = {
         products,
         currency,
-        delivery_fee // Updated spelling
+        delivery_fee 
     };
 
     return (
